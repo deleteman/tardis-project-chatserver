@@ -1,0 +1,19 @@
+{
+    "app":  {
+        "port": 8000,
+        "logging": {
+            "outputfile": "./output.log"
+        }
+    },
+    "chat": {
+        "events": {
+            "NEWMSG": "new message",
+            "ADDROOM": "add room",
+            "JOINROOM": "join room", 
+            "USRJOINED": "user joined",
+            "DISCONNECT": "disconnect",
+            "USRLEFT": "user left"
+        }
+    }
+    
+}
